@@ -56,9 +56,9 @@ end
     #no_offense_steven = using_delete(instructors, "Steven")
     #expect(instructors).not_to include("Steven")
     
-    def using_delete(instructors, "Steven")
-      instructors.delete(1)
-   end
+   # def using_delete(instructors, "Steven")
+    #  instructors.delete(1)
+   #end
     
   #  describe "using_delete_at" do 
  # it "takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer" do 
