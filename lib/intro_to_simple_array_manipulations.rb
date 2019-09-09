@@ -32,7 +32,7 @@ end
   # it "increases the length of the first array" do 
    # expect(@my_favorite_things.length).to be > 2
    def using_concat(my_favorite_things, more_favs)
-     .concat 
+     my_favorite_things.concat(more_favs) 
    end
   
   
