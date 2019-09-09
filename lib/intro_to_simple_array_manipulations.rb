@@ -56,7 +56,7 @@ end
     #no_offense_steven = using_delete(instructors, "Steven")
     #expect(instructors).not_to include("Steven")
     
-   def no_offense_steven(instructors)
+   def using_delete(instructors)
      instructors.delete(1)
    end
     
