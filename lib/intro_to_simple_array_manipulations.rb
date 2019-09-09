@@ -31,9 +31,9 @@ end
    # expect(@all_my_favs).to eq(["raindrops on roses", "whiskers on kittens", "sports cars", "flatiron school"])
   # it "increases the length of the first array" do 
    # expect(@my_favorite_things.length).to be > 2
-   def using_concat(my_favorite_things, more_favs)
-     .concat 
-   end
+  # def using_concat(my_favorite_things, more_favs)
+   #  .concat 
+   #end
   
   
   
@@ -47,9 +47,9 @@ end
   #it "increases the length of the array" do 
    # expect(@new_array.length).to eq(8)
     
-  def using_insert(list_of_programming_languages, another_language)
+  #def using_insert(list_of_programming_languages, another_language)
     
-  end
+  #end
   
   def using_uniq(haircuts)
     haircuts.uniq
@@ -65,9 +65,9 @@ end
     #no_offense_steven = using_delete(instructors, "Steven")
     #expect(instructors).not_to include("Steven")
     
-    def using_delete(instructors, "Steven")
+   # def using_delete(instructors, "Steven")
       
-    end
+   # end
     
   #  describe "using_delete_at" do 
  # it "takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer" do 
@@ -75,6 +75,6 @@ end
    # deleted_robot = using_delete_at(famous_robots, 2)
    # expect(deleted_robot).to eq("Robocop")
    
-   def using_delete_at
+   #def using_delete_at
      
    end
