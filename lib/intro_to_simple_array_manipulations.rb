@@ -56,16 +56,10 @@ end
     #no_offense_steven = using_delete(instructors, "Steven")
     #expect(instructors).not_to include("Steven")
     
-   #def using_delete(instructors,
-   #  instructors.delete(1)
-   #end
+   def using_delete(instructors, no_offense_steven)
+     instructors.delete(1)
+   end
     
-  #  describe "using_delete_at" do 
- # it "takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer" do 
-   # famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-   # deleted_robot = using_delete_at(famous_robots, 2)
-   # expect(deleted_robot).to eq("Robocop")
-   
-   def using_delete_at(famous_robots, deleted_robot)
+    def using_delete_at(famous_robots, deleted_robot)
      famous_robots.delete_at(2)
    end
