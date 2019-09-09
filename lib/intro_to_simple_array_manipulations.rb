@@ -57,7 +57,7 @@ end
     #expect(instructors).not_to include("Steven")
     
    def using_delete(instructors)
-     instructors.delete
+     instructors.delete(1)
    end
     
   #  describe "using_delete_at" do 
