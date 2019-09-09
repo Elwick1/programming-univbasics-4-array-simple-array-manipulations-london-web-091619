@@ -38,9 +38,9 @@ end
   #it "increases the length of the array" do 
    # expect(@new_array.length).to eq(8)
     
-  #def using_insert(list_of_programming_languages, another_language)
+  def using_insert(list_of_programming_languages, another_language)
     
-  #end
+  end
   
   def using_uniq(haircuts)
     haircuts.uniq
